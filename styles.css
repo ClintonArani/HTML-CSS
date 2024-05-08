@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.parent{
+    margin-top: 30px;
+    width: 70rem;
+    margin-left: 5rem;
+    padding-top: 30px;
+}
+ .container{
+    background-color: rgb(212, 239, 244);
+    width: 22rem;
+    margin-top: 30px;
+    margin-left: 20rem;
+    padding: 30px; 
+    display: flex;
+    justify-content: center;   
+}
+ .container .main{
+    width: 20rem;
+    background: #fff;
+    padding: 18px;
+    border-radius: 10px;
+}
+ .container .main .image{
+    width: 19rem;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+ .container .main .heading{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.container .main .text{
+    margin-top: 10px;
+    color: darkgray;
+    margin-left: 20px;
+}
+.container .main .text span{
+    margin-left: 70px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+      padding: 0 60px; /* Add padding to the container for better readability */
+    }
+  }
